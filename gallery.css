@@ -29,11 +29,57 @@ img {
   width: 100%;
   height: 100%;
 }
-.gallery__section2, .gallery__section1 {
+.gallery__section1  {
   display: grid;
   grid-template-areas:
     "one two three"
-    "four five six";
+    "four five six"
+    "seven eight nine"
+    "ten eleven twelve";  
+}
+.gallery__section2  {
+  display: grid;
+  grid-template-areas:
+    "one two three"
+    "four five six";  
+}
+.h_one {
+  grid-area: one;
+  width: 360px;
+  height: 240px;
+}
+.h_two {
+  grid-area: two;
+}
+.h_three {
+  grid-area: three;
+}
+.h_four {
+  grid-area: four;
+}
+.h_five {
+  grid-area: five;
+}
+.h_six {
+  grid-area: six;
+}
+.h_seven {
+  grid-area: seven;
+}
+.h_eight {
+  grid-area: eight;
+}
+.h_nine {
+  grid-area: nine;
+}
+.h_ten {
+  grid-area: ten;
+}
+.h_eleven {
+  grid-area: eleven;
+}
+.h_twelve {
+  grid-area: twelve;
 }
 .sb_image {
   width: 360px;
@@ -61,8 +107,7 @@ img {
   display: grid;
   grid-template-areas:
     "one two three"
-    "four four five"
-    "six seven eight";
+    "four four five";
 }
 
 .a_one {
@@ -85,12 +130,22 @@ img {
   grid-area: five;
 }
 @media (max-width: 1150px) {
-    .gallery__section2, .gallery__section1 {
+  .gallery__section1 {
+    display: grid;
+    grid-template-areas:
+      "one two" 
+      "three four" 
+      "five six"
+      "seven eight"
+      "nine ten"
+      "eleven twelve";   
+  }
+    .gallery__section2 {
         display: grid;
         grid-template-areas:
           "one two" 
           "three four" 
-          "five six";
+          "five six";   
       }
       .sb_image {
         width: 360px;
