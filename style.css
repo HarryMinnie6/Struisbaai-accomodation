@@ -251,9 +251,12 @@ iframe {
   border-radius: 2px;
 }
 .map__holder > a {
-  display: none;
+ color: white;
 }
-
+.map__holder > a:hover {
+  color: white;
+  cursor: default ;
+ }
 .footer {
   background-color: #2876aa;
   
