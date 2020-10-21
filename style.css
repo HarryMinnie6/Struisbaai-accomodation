@@ -24,7 +24,7 @@ body {
   top: 0;
   box-sizing: border-box;
   transition: 0.3s ease-in-out;
-  /* opacity: 0.85; */
+  opacity: 0.95;
 }
 .nav-links ul {
   margin: 0;

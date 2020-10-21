@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.rates-page__rapper {
+.rates-page__wrapper {
     position: relative;
   display: flex;
   flex-direction: column;
@@ -157,7 +157,6 @@
 @media (max-width: 768px) {
     .rates__section {
       position: relative;
-      
       padding: 10px;
       display: flex;
       flex-direction: column;
