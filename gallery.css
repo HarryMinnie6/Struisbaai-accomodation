@@ -14,6 +14,9 @@
   width: 100%;
   background: rgb(255, 255, 255);
 }
+.gallery__wrapper > h3 {
+  text-align: center;
+}
 .image {
   width: 360px;
   height: 240px;

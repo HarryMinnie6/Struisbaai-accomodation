@@ -296,6 +296,7 @@ iframe {
 .fa-phone {
   font-size: 16px;
   padding-right: 5px;
+  color: #cbdeec;
 }
 
 @media (max-width: 1455px) {
