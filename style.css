@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Forum&family=Handlee&family=Raleway:wght@300&family=Roboto:wght@300&display=swap");
 
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+}
+html.is-animating .transition fade {
+  opacity: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,14 +18,14 @@ body {
   padding: 0;
   font-family: "Oxanium", "Bellota Text", cursive, sans-serif, Arial;
 }
-body::-webkit-scrollbar{
-  width: .25rem;
+body::-webkit-scrollbar {
+  width: 0.25rem;
 }
-body::-webkit-scrollbar-track{
-background: #e3dcc9
+body::-webkit-scrollbar-track {
+  background: #e3dcc9;
 }
-body::-webkit-scrollbar-thumb{
-  background:#216796;
+body::-webkit-scrollbar-thumb {
+  background: #216796;
 }
 /*-------------- navigation bar start----------------------*/
 .navigation-bar {
@@ -115,7 +123,7 @@ body::-webkit-scrollbar-thumb{
   }
 }
 /*----------------------------- hamburger-menu end---------------------*/
-.active{
+.active {
   color: #e3dcc9 !important;
 }
 .site-rapper {
@@ -260,22 +268,21 @@ iframe {
   border-radius: 2px;
 }
 .map__holder > a {
- color: white;
+  color: white;
 }
 .map__holder > a:hover {
   color: white;
-  cursor: default ;
- }
+  cursor: default;
+}
 .footer {
   background-color: #2876aa;
-  
 }
 .footer__details {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.p-contact__footer{
+.p-contact__footer {
   letter-spacing: 1px;
   font-size: 18px !important;
 }
@@ -358,7 +365,7 @@ iframe {
     padding-bottom: 20px;
   }
   .carousel {
-    width: 90%;
+    width: 100%;
   }
   .about__text {
     margin-top: 20px;
@@ -383,6 +390,10 @@ iframe {
     flex-direction: column;
     align-items: center;
   }
+  .container {
+    width: 100%;
+  }
+
   .reason__section > div:nth-child(1) {
     width: 200px;
   }
