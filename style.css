@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
   box-sizing: border-box;
   transition: 0.3s ease-in-out;
   opacity: 0.95;
+  box-shadow: 0 5px 5px rgba(33, 103, 150, 0.3);
 }
 .nav-links ul {
   margin: 0;
@@ -384,8 +385,8 @@ iframe {
 @media (max-width: 768px) {
   .about__section {
     position: relative;
-    margin: 55px 0 0 0;
-    padding: 10px;
+    margin: 70px 0 0 0;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;
