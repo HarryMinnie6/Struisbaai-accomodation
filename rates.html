@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="rates.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6f89e29cb7.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script
+      src="https://kit.fontawesome.com/6f89e29cb7.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Southern Comfort Accommodation</title>
-    <link rel="shortcut icon" type="image/gif/png" href="images/title-img.png" />
-</head>
-<body>
-    <div class="rates-page__wrapper">
-
-    <nav class="navigation-bar">
+    <link
+      rel="shortcut icon"
+      type="image/gif/png"
+      href="images/title-img.png"
+    />
+  </head>
+  <body>
+    <div class="rates-page__wrapper transition-fade">
+      <nav class="navigation-bar">
         <!-- <div class="logo">dfdfddf </div> -->
         <!-- Hamburger Menu start-->
         <a href="javascript:void(0)" class="hamburger-button">
@@ -25,114 +38,176 @@
         <!-- Hamburger Menu end-->
         <div class="nav-links">
           <ul class="menuList">
-            <li><a href="index.html" > Home</a></li>
-            <li><a href="#" class="active"> Rates</a></li>
-            <li><a href="gallery.html"> Gallery</a></li>
-            <li><a href="activities.html"> Activities</a></li>
-            <li><a href="contact.html"> Contact</a></li>
+            <li><a href="/index.html"> Home</a></li>
+            <li><a href="/rates.html" class="active"> Rates</a></li>
+            <li><a href="/gallery.html"> Gallery</a></li>
+            <li><a href="/activities.html"> Activities</a></li>
+            <li><a href="/contact.html"> Contact</a></li>
           </ul>
         </div>
       </nav>
-       
 
-        <section class="rates__section">
-            <div class="rates__holder">
-                <h3 >Rates</h3>
-                
-                <h4 class="font-weight-normal mt-5 pt-1 pb-1 border-top border-bottom border-dark rates__header">Self Catering Suite</h4>
-                <p class="mt-3 font-weight-lighter">(Sleeps up to 6 people)</p>
-                    <div class="seasons__wrapper mt-3">
-                        <div class="season">
-                            <h5 class="font-weight-normal border-bottom border-dark pb-1">Out of Season</h5>
-                            <div class="rates">
-                                <div class="rate__display">
-                                    <p class="font-weight-lighter">1-2 People  </p>
-                                    <p >-</p>
-                                    <p class="font-weight-lighter">R 350.00* p/p  per day</p>
-                                </div>
-                                <div class="rate__display">
-                                    <p class="font-weight-lighter">3-6 People</p>
-                                    <p>-</p>
-                                    <p class="font-weight-lighter">R 275.00* p/p per day</p>
-                                </div>                               
-                            </div>
-                        </div>
-                        <div class="season">
-                            <h5 class="font-weight-normal border-bottom border-dark pb-1">In Season</h5>
-                            <div class="rates">
-                                <div class="rate__display">
-                                    <p class="font-weight-lighter">1-2 People  </p>
-                                    <p>-</p>
-                                    <p class="font-weight-lighter">R 475.00* p/p per day</p>
-                                </div>
-                                <div class="rate__display">
-                                    <p class="font-weight-lighter">3-6 People</p>
-                                    <p>-</p>
-                                    <p class="font-weight-lighter">R 450.00* p/p per day</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-<!-- ------------------------------------------------------- -->
-            <div class="rates__holder">
-                <h4 class="font-weight-normal mt-5 pt-1 pb-1 border-top border-bottom border-dark rates__header">House</h4>
-                <p class="mt-3 font-weight-lighter pl-1 pr-1">(4 bedrooms, 3 bathrooms. Sleeps up to 10 people, includes the self catering suite)</p>    
-                    <div class="seasons__wrapper mt-3">
-                        <div class="season">
-                            <h5 class="font-weight-normal border-bottom border-dark pb-1">Out of Season</h5>
-                            <div class="rates">
-                                <div class="rate__display house__display">
-                                    <p class="font-weight-lighter">R 2,100.00* per day</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="season mt-">
-                            <h5 class="font-weight-normal border-bottom border-dark pb-1">In Season</h5>
-                            <div class="rates">
-                                <div class="rate__display house__display">
-                                    
-                                    <p class="font-weight-lighter house_price">R 4,500.00* per day</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-            </div>
+      <section class="rates__section">
+        <div class="rates__holder">
+          <h3>Rates</h3>
 
-            
-            
-        </section>
-        <section class="availability__section">
-            <i>*Please be advised that the rates can change with certain times of the year, availability and without notice, therefore it will be beneficial to contact us with regards to a quote for the time period of the stay required. Southern Comfort Accomodation does accommodate pets, but prior arrangement needs to be made.</i>
-            <a class='p-2' href='https://www.airbnb.co.za/rooms/20021344?adults=10&source_impression_id=p3_1603188636_7aDKPkCPlawsK06u'>Check availability</a>
-        </section>
-
-    </div>
-    <footer class='footer rates__footer'>
-        <div class="footer__details">
-            <div class="contact__details">
-                <div class="email"><i class="far fa-envelope"></i> : taniam19649@gmail.com </div>
-                <div class="cell-phone"><i class="fas fa-phone"></i> : +27 (0) 82 417 0578</div>
+          <h4
+            class="font-weight-normal mt-5 pt-1 pb-1 border-top border-bottom border-dark rates__header"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            Self Catering Suite
+          </h4>
+          <p
+            class="mt-3 font-weight-lighter"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            (Sleeps up to 6 people)
+          </p>
+          <div class="seasons__wrapper mt-3">
+            <div class="season" data-aos="zoom-in" data-aos-delay="200">
+              <h5 class="font-weight-normal border-bottom border-dark pb-1">
+                Out of Season
+              </h5>
+              <div class="rates">
+                <div class="rate__display">
+                  <p class="font-weight-lighter">1-2 People</p>
+                  <p>-</p>
+                  <p class="font-weight-lighter">R 350.00* p/p per day</p>
+                </div>
+                <div class="rate__display">
+                  <p class="font-weight-lighter">3-6 People</p>
+                  <p>-</p>
+                  <p class="font-weight-lighter">R 275.00* p/p per day</p>
+                </div>
+              </div>
             </div>
-            <div class="address__details">
-                <p class="font-weight-bolder p-contact__footer">Contact Details</p>
-                <p>26 Heide Ave</p>
-                <p>Struisbaai, 7285</p>
-                <p>South Africa</p>
-                <p><strong><i>Latitude: </i> </strong> -34.802307</p>
-                <p><strong><i>Longitude:</i></strong> 20.052368</p>
+            <div class="season" data-aos="zoom-in" data-aos-delay="200">
+              <h5 class="font-weight-normal border-bottom border-dark pb-1">
+                In Season
+              </h5>
+              <div class="rates">
+                <div class="rate__display">
+                  <p class="font-weight-lighter">1-2 People</p>
+                  <p>-</p>
+                  <p class="font-weight-lighter">R 475.00* p/p per day</p>
+                </div>
+                <div class="rate__display">
+                  <p class="font-weight-lighter">3-6 People</p>
+                  <p>-</p>
+                  <p class="font-weight-lighter">R 450.00* p/p per day</p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <!-- ------------------------------------------------------- -->
+        <div class="rates__holder">
+          <h4
+            class="font-weight-normal mt-5 pt-1 pb-1 border-top border-bottom border-dark rates__header"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            House
+          </h4>
+          <p
+            class="mt-3 font-weight-lighter pl-1 pr-1"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            (4 bedrooms, 3 bathrooms. Sleeps up to 10 people, includes the self
+            catering suite)
+          </p>
+          <div class="seasons__wrapper mt-3">
+            <div class="season" data-aos="zoom-in" data-aos-delay="400">
+              <h5 class="font-weight-normal border-bottom border-dark pb-1">
+                Out of Season
+              </h5>
+              <div class="rates">
+                <div class="rate__display house__display">
+                  <p class="font-weight-lighter">R 2,100.00* per day</p>
+                </div>
+              </div>
+            </div>
+            <div class="season" data-aos="zoom-in" data-aos-delay="400">
+              <h5 class="font-weight-normal border-bottom border-dark pb-1">
+                In Season
+              </h5>
+              <div class="rates">
+                <div class="rate__display house__display">
+                  <p class="font-weight-lighter house_price">
+                    R 4,500.00* per day
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="availability__section"
+        data-aos="zoom-in"
+        data-aos-delay="500"
+      >
+        <i
+          >*Please be advised that the rates can change with certain times of
+          the year, availability and without notice, therefore it will be
+          beneficial to contact us with regards to a quote for the time period
+          of the stay required. Southern Comfort Accomodation does accommodate
+          pets, but prior arrangement needs to be made.</i
+        >
+        <a
+          class="p-2"
+          href="https://www.airbnb.co.za/rooms/20021344?adults=10&source_impression_id=p3_1603188636_7aDKPkCPlawsK06u"
+          >Check availability</a
+        >
+      </section>
+    </div>
+    <footer class="footer rates__footer">
+      <div class="footer__details">
+        <div class="contact__details">
+          <div class="email">
+            <i class="far fa-envelope"></i> : taniam19649@gmail.com
+          </div>
+          <div class="cell-phone">
+            <i class="fas fa-phone"></i> : +27 (0) 82 417 0578
+          </div>
+        </div>
+        <div class="address__details">
+          <p class="font-weight-bolder p-contact__footer">Contact Details</p>
+          <p>26 Heide Ave</p>
+          <p>Struisbaai, 7285</p>
+          <p>South Africa</p>
+          <p>
+            <strong><i>Latitude: </i> </strong> -34.802307
+          </p>
+          <p>
+            <strong><i>Longitude:</i></strong> 20.052368
+          </p>
+        </div>
+      </div>
     </footer>
 
-
     <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
