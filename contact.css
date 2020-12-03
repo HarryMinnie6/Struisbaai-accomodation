@@ -52,10 +52,15 @@
 .address__holder {
   margin: 20px;
 }
-.address__holder > p {
+.address__holder > p, .seo-h3 {
   margin: 10px;
   font-size: 20px;
+  color: black
 }
+.seo-h3 {
+  font-weight: normal;
+}
+
 .address__holder > p:nth-child(1) {
   font-size: 25px;
   text-decoration: underline;

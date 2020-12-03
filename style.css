@@ -256,7 +256,7 @@ body::-webkit-scrollbar-thumb {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-.location__wrapper > div > h1 {
+.location__wrapper > div > h2 {
   font-size: 30px;
 }
 .map__holder {
@@ -304,7 +304,7 @@ iframe {
 .address__details {
   margin: 20px;
 }
-.address__details > p {
+.address__details > p, .seo-h3 {
   margin: 10px;
   color: #cbdeec;
   font-size: 14px;
@@ -398,7 +398,7 @@ iframe {
   .reason__section > div:nth-child(1) {
     width: 200px;
   }
-  .reason__section > div:nth-child(1) > h1 {
+  .reason__section > div:nth-child(1) > h2 {
     font-size: 30px;
     text-align: center;
   }
